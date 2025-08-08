@@ -1,5 +1,0 @@
-D:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/libz-ng-sys-97e79f397ed9fff1/out/build/CMakeFiles/zlib.dir
-D:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/libz-ng-sys-97e79f397ed9fff1/out/build/CMakeFiles/PACKAGE.dir
-D:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/libz-ng-sys-97e79f397ed9fff1/out/build/CMakeFiles/INSTALL.dir
-D:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/libz-ng-sys-97e79f397ed9fff1/out/build/CMakeFiles/ALL_BUILD.dir
-D:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/libz-ng-sys-97e79f397ed9fff1/out/build/CMakeFiles/ZERO_CHECK.dir

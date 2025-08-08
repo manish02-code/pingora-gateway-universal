@@ -1,0 +1,14 @@
+D:\manishENBD\Dc\pingora-gateway-universal\target\debug\deps\clang_sys-501a8beebee00088.d: C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\lib.rs C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\support.rs C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\link.rs D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\clang-sys-031409f21621f4dc\out/macros.rs D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\clang-sys-031409f21621f4dc\out/common.rs D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\clang-sys-031409f21621f4dc\out/dynamic.rs
+
+D:\manishENBD\Dc\pingora-gateway-universal\target\debug\deps\libclang_sys-501a8beebee00088.rlib: C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\lib.rs C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\support.rs C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\link.rs D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\clang-sys-031409f21621f4dc\out/macros.rs D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\clang-sys-031409f21621f4dc\out/common.rs D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\clang-sys-031409f21621f4dc\out/dynamic.rs
+
+D:\manishENBD\Dc\pingora-gateway-universal\target\debug\deps\libclang_sys-501a8beebee00088.rmeta: C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\lib.rs C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\support.rs C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\link.rs D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\clang-sys-031409f21621f4dc\out/macros.rs D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\clang-sys-031409f21621f4dc\out/common.rs D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\clang-sys-031409f21621f4dc\out/dynamic.rs
+
+C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\lib.rs:
+C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\support.rs:
+C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\link.rs:
+D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\clang-sys-031409f21621f4dc\out/macros.rs:
+D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\clang-sys-031409f21621f4dc\out/common.rs:
+D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\clang-sys-031409f21621f4dc\out/dynamic.rs:
+
+# env-dep:OUT_DIR=D:\\manishENBD\\Dc\\pingora-gateway-universal\\target\\debug\\build\\clang-sys-031409f21621f4dc\\out

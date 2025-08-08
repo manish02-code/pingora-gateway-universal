@@ -1,0 +1,157 @@
+
+Microsoft (R) Program Maintenance Utility Version 14.44.35211.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+DEBUG: all keys: APPLINKDIR, BINDIR, CMAKECONFIGDIR, ENGINESDIR, INCLUDEDIR, LDLIBS, LIBDIR, MODULESDIR, PKGCONFIGDIR, PREFIX, VERSION, libdir
+No value given for CMAKECONFIGDIR
+No value given for PKGCONFIGDIR
+No value given for libdir
+DEBUG: PREFIX = . => PREFIX = D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\openssl-sys-75956ea2622ff270\out\openssl-build\build\src
+DEBUG: libdir = . => libdir = D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\openssl-sys-75956ea2622ff270\out\openssl-build\build\src
+DEBUG: BINDIR = apps => BINDIR = D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\openssl-sys-75956ea2622ff270\out\openssl-build\build\src\apps, BINDIR_REL_PREFIX = apps
+DEBUG: LIBDIR =  => LIBDIR = D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\openssl-sys-75956ea2622ff270\out\openssl-build\build\src, LIBDIR_REL_PREFIX = 
+DEBUG: INCLUDEDIR = [ include, ./include ] => INCLUDEDIR = [ D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\openssl-sys-75956ea2622ff270\out\openssl-build\build\src\include, D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\openssl-sys-75956ea2622ff270\out\openssl-build\build\src\include ], INCLUDEDIR_REL_PREFIX = [ include, ./include ]
+DEBUG: APPLINKDIR = ms => APPLINKDIR = D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\openssl-sys-75956ea2622ff270\out\openssl-build\build\src\ms, APPLINKDIR_REL_PREFIX = ms
+DEBUG: ENGINESDIR = engines => ENGINESDIR = D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\openssl-sys-75956ea2622ff270\out\openssl-build\build\src\engines, ENGINESDIR_REL_LIBDIR = engines
+DEBUG: MODULESDIR = providers => MODULESDIR = D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\openssl-sys-75956ea2622ff270\out\openssl-build\build\src\providers, MODULESDIR_REL_LIBDIR = providers
+DEBUG: PKGCONFIGDIR = . => PKGCONFIGDIR = D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\openssl-sys-75956ea2622ff270\out\openssl-build\build\src, PKGCONFIGDIR_REL_LIBDIR = .
+DEBUG: CMAKECONFIGDIR = . => CMAKECONFIGDIR = D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\openssl-sys-75956ea2622ff270\out\openssl-build\build\src, CMAKECONFIGDIR_REL_LIBDIR = .
+DEBUG: all keys: APPLINKDIR, BINDIR, CMAKECONFIGDIR, ENGINESDIR, INCLUDEDIR, LDLIBS, LIBDIR, MODULESDIR, PKGCONFIGDIR, PREFIX, VERSION, libdir
+DEBUG: PREFIX = D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\openssl-sys-75956ea2622ff270\out\openssl-build\install => PREFIX = D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\openssl-sys-75956ea2622ff270\out\openssl-build\install
+DEBUG: libdir = D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\openssl-sys-75956ea2622ff270\out\openssl-build\install\lib => libdir = D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\openssl-sys-75956ea2622ff270\out\openssl-build\install\lib
+DEBUG: BINDIR = bin => BINDIR = D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\openssl-sys-75956ea2622ff270\out\openssl-build\install\bin, BINDIR_REL_PREFIX = bin
+DEBUG: LIBDIR = lib => LIBDIR = D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\openssl-sys-75956ea2622ff270\out\openssl-build\install\lib, LIBDIR_REL_PREFIX = lib
+DEBUG: INCLUDEDIR = include => INCLUDEDIR = D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\openssl-sys-75956ea2622ff270\out\openssl-build\install\include, INCLUDEDIR_REL_PREFIX = include
+DEBUG: APPLINKDIR = include/openssl => APPLINKDIR = D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\openssl-sys-75956ea2622ff270\out\openssl-build\install\include\openssl, APPLINKDIR_REL_PREFIX = include/openssl
+DEBUG: ENGINESDIR = D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\openssl-sys-75956ea2622ff270\out\openssl-build\install\lib\engines-3 => ENGINESDIR = D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\openssl-sys-75956ea2622ff270\out\openssl-build\install\lib\engines-3, ENGINESDIR_REL_LIBDIR = engines-3
+DEBUG: MODULESDIR = D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\openssl-sys-75956ea2622ff270\out\openssl-build\install\lib\ossl-modules => MODULESDIR = D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\openssl-sys-75956ea2622ff270\out\openssl-build\install\lib\ossl-modules, MODULESDIR_REL_LIBDIR = ossl-modules
+DEBUG: PKGCONFIGDIR =  => PKGCONFIGDIR = D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\openssl-sys-75956ea2622ff270\out\openssl-build\install\lib, PKGCONFIGDIR_REL_LIBDIR = 
+DEBUG: CMAKECONFIGDIR = D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\openssl-sys-75956ea2622ff270\out\openssl-build\install\lib\cmake\OpenSSL => CMAKECONFIGDIR = D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\openssl-sys-75956ea2622ff270\out\openssl-build\install\lib\cmake\OpenSSL, CMAKECONFIGDIR_REL_LIBDIR = cmake\OpenSSL
+
+Microsoft (R) Program Maintenance Utility Version 14.44.35211.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Microsoft (R) Program Maintenance Utility Version 14.44.35211.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+Use of uninitialized value in join or string at D:/RUST/perl/lib/re.pm line 47.
+
+Microsoft (R) Program Maintenance Utility Version 14.44.35211.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Microsoft (R) Program Maintenance Utility Version 14.44.35211.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Microsoft (R) Program Maintenance Utility Version 14.44.35211.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+

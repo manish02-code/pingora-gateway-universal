@@ -1,0 +1,10 @@
+^D:\MANISHENBD\DC\PINGORA-GATEWAY-UNIVERSAL\TARGET\DEBUG\BUILD\LIBZ-NG-SYS-97E79F397ED9FFF1\OUT\BUILD\CMAKEFILES\D896A9D62016601590A389E9B545F53B\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

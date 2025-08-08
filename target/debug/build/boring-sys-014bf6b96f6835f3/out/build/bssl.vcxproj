@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{45F41A34-94DF-342A-A422-CE8ED87BA71E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>bssl</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\bssl.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">bssl.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">bssl</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">bssl.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">bssl</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">bssl.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">bssl</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">bssl.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">bssl</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Brepro -Brepro</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization></Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;BORINGSSL_IMPLEMENTATION;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;BORINGSSL_IMPLEMENTATION;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>-gcv8</AdditionalOptions>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;BORINGSSL_IMPLEMENTATION;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Debug\ssl.lib;Debug\crypto.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/build/Debug/bssl.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/build/Debug/bssl.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Brepro</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;BORINGSSL_IMPLEMENTATION;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;BORINGSSL_IMPLEMENTATION;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>-gcv8</AdditionalOptions>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;BORINGSSL_IMPLEMENTATION;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Release\ssl.lib;Release\crypto.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/build/Release/bssl.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/build/Release/bssl.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Brepro</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;BORINGSSL_IMPLEMENTATION;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;BORINGSSL_IMPLEMENTATION;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>-gcv8</AdditionalOptions>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;BORINGSSL_IMPLEMENTATION;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>MinSizeRel\ssl.lib;MinSizeRel\crypto.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/build/MinSizeRel/bssl.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/build/MinSizeRel/bssl.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Brepro</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;BORINGSSL_IMPLEMENTATION;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;BORINGSSL_IMPLEMENTATION;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <NASM>
+      <IncludePaths>D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\include\;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>-gcv8</AdditionalOptions>
+      <Outputswitch>1</Outputswitch>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);NDEBUG;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_CRT_SECURE_NO_WARNINGS;BORINGSSL_IMPLEMENTATION;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+    </NASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>RelWithDebInfo\ssl.lib;RelWithDebInfo\crypto.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>D:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/build/RelWithDebInfo/bssl.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>D:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/build/RelWithDebInfo/bssl.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/boringssl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\bin\cmake.exe -SD:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/boringssl -BD:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/build --check-stamp-file D:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\CMakeFiles\4.1.0-rc3\CMakeASM_NASMCompiler.cmake;D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\CMakeFiles\4.1.0-rc3\CMakeCCompiler.cmake;D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\CMakeFiles\4.1.0-rc3\CMakeCXXCompiler.cmake;D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\CMakeFiles\4.1.0-rc3\CMakeRCCompiler.cmake;D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\CMakeFiles\4.1.0-rc3\CMakeSystem.cmake;D:\share\cmake-4.1\Modules\CMakeASMInformation.cmake;D:\share\cmake-4.1\Modules\CMakeASM_NASMInformation.cmake;D:\share\cmake-4.1\Modules\CMakeCInformation.cmake;D:\share\cmake-4.1\Modules\CMakeCXXInformation.cmake;D:\share\cmake-4.1\Modules\CMakeCommonLanguageInclude.cmake;D:\share\cmake-4.1\Modules\CMakeGenericSystem.cmake;D:\share\cmake-4.1\Modules\CMakeInitializeConfigs.cmake;D:\share\cmake-4.1\Modules\CMakeLanguageInformation.cmake;D:\share\cmake-4.1\Modules\CMakeRCInformation.cmake;D:\share\cmake-4.1\Modules\CMakeSystemSpecificInformation.cmake;D:\share\cmake-4.1\Modules\CMakeSystemSpecificInitialize.cmake;D:\share\cmake-4.1\Modules\CheckCSourceCompiles.cmake;D:\share\cmake-4.1\Modules\CheckIncludeFile.cmake;D:\share\cmake-4.1\Modules\CheckLibraryExists.cmake;D:\share\cmake-4.1\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\share\cmake-4.1\Modules\Compiler\MSVC-C.cmake;D:\share\cmake-4.1\Modules\Compiler\MSVC-CXX.cmake;D:\share\cmake-4.1\Modules\Compiler\MSVC.cmake;D:\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;D:\share\cmake-4.1\Modules\FindPackageMessage.cmake;D:\share\cmake-4.1\Modules\FindThreads.cmake;D:\share\cmake-4.1\Modules\Internal\CMakeASMLinkerInformation.cmake;D:\share\cmake-4.1\Modules\Internal\CMakeASM_NASMLinkerInformation.cmake;D:\share\cmake-4.1\Modules\Internal\CMakeCLinkerInformation.cmake;D:\share\cmake-4.1\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\share\cmake-4.1\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\share\cmake-4.1\Modules\Internal\CheckSourceCompiles.cmake;D:\share\cmake-4.1\Modules\Linker\MSVC-C.cmake;D:\share\cmake-4.1\Modules\Linker\MSVC-CXX.cmake;D:\share\cmake-4.1\Modules\Linker\MSVC.cmake;D:\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC.cmake;D:\share\cmake-4.1\Modules\Platform\Windows-Initialize.cmake;D:\share\cmake-4.1\Modules\Platform\Windows-MSVC-C.cmake;D:\share\cmake-4.1\Modules\Platform\Windows-MSVC-CXX.cmake;D:\share\cmake-4.1\Modules\Platform\Windows-MSVC.cmake;D:\share\cmake-4.1\Modules\Platform\Windows.cmake;D:\share\cmake-4.1\Modules\Platform\WindowsPaths.cmake;D:\share\cmake-4.1\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/boringssl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\bin\cmake.exe -SD:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/boringssl -BD:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/build --check-stamp-file D:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\CMakeFiles\4.1.0-rc3\CMakeASM_NASMCompiler.cmake;D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\CMakeFiles\4.1.0-rc3\CMakeCCompiler.cmake;D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\CMakeFiles\4.1.0-rc3\CMakeCXXCompiler.cmake;D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\CMakeFiles\4.1.0-rc3\CMakeRCCompiler.cmake;D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\CMakeFiles\4.1.0-rc3\CMakeSystem.cmake;D:\share\cmake-4.1\Modules\CMakeASMInformation.cmake;D:\share\cmake-4.1\Modules\CMakeASM_NASMInformation.cmake;D:\share\cmake-4.1\Modules\CMakeCInformation.cmake;D:\share\cmake-4.1\Modules\CMakeCXXInformation.cmake;D:\share\cmake-4.1\Modules\CMakeCommonLanguageInclude.cmake;D:\share\cmake-4.1\Modules\CMakeGenericSystem.cmake;D:\share\cmake-4.1\Modules\CMakeInitializeConfigs.cmake;D:\share\cmake-4.1\Modules\CMakeLanguageInformation.cmake;D:\share\cmake-4.1\Modules\CMakeRCInformation.cmake;D:\share\cmake-4.1\Modules\CMakeSystemSpecificInformation.cmake;D:\share\cmake-4.1\Modules\CMakeSystemSpecificInitialize.cmake;D:\share\cmake-4.1\Modules\CheckCSourceCompiles.cmake;D:\share\cmake-4.1\Modules\CheckIncludeFile.cmake;D:\share\cmake-4.1\Modules\CheckLibraryExists.cmake;D:\share\cmake-4.1\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\share\cmake-4.1\Modules\Compiler\MSVC-C.cmake;D:\share\cmake-4.1\Modules\Compiler\MSVC-CXX.cmake;D:\share\cmake-4.1\Modules\Compiler\MSVC.cmake;D:\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;D:\share\cmake-4.1\Modules\FindPackageMessage.cmake;D:\share\cmake-4.1\Modules\FindThreads.cmake;D:\share\cmake-4.1\Modules\Internal\CMakeASMLinkerInformation.cmake;D:\share\cmake-4.1\Modules\Internal\CMakeASM_NASMLinkerInformation.cmake;D:\share\cmake-4.1\Modules\Internal\CMakeCLinkerInformation.cmake;D:\share\cmake-4.1\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\share\cmake-4.1\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\share\cmake-4.1\Modules\Internal\CheckSourceCompiles.cmake;D:\share\cmake-4.1\Modules\Linker\MSVC-C.cmake;D:\share\cmake-4.1\Modules\Linker\MSVC-CXX.cmake;D:\share\cmake-4.1\Modules\Linker\MSVC.cmake;D:\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC.cmake;D:\share\cmake-4.1\Modules\Platform\Windows-Initialize.cmake;D:\share\cmake-4.1\Modules\Platform\Windows-MSVC-C.cmake;D:\share\cmake-4.1\Modules\Platform\Windows-MSVC-CXX.cmake;D:\share\cmake-4.1\Modules\Platform\Windows-MSVC.cmake;D:\share\cmake-4.1\Modules\Platform\Windows.cmake;D:\share\cmake-4.1\Modules\Platform\WindowsPaths.cmake;D:\share\cmake-4.1\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/boringssl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\bin\cmake.exe -SD:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/boringssl -BD:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/build --check-stamp-file D:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\CMakeFiles\4.1.0-rc3\CMakeASM_NASMCompiler.cmake;D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\CMakeFiles\4.1.0-rc3\CMakeCCompiler.cmake;D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\CMakeFiles\4.1.0-rc3\CMakeCXXCompiler.cmake;D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\CMakeFiles\4.1.0-rc3\CMakeRCCompiler.cmake;D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\CMakeFiles\4.1.0-rc3\CMakeSystem.cmake;D:\share\cmake-4.1\Modules\CMakeASMInformation.cmake;D:\share\cmake-4.1\Modules\CMakeASM_NASMInformation.cmake;D:\share\cmake-4.1\Modules\CMakeCInformation.cmake;D:\share\cmake-4.1\Modules\CMakeCXXInformation.cmake;D:\share\cmake-4.1\Modules\CMakeCommonLanguageInclude.cmake;D:\share\cmake-4.1\Modules\CMakeGenericSystem.cmake;D:\share\cmake-4.1\Modules\CMakeInitializeConfigs.cmake;D:\share\cmake-4.1\Modules\CMakeLanguageInformation.cmake;D:\share\cmake-4.1\Modules\CMakeRCInformation.cmake;D:\share\cmake-4.1\Modules\CMakeSystemSpecificInformation.cmake;D:\share\cmake-4.1\Modules\CMakeSystemSpecificInitialize.cmake;D:\share\cmake-4.1\Modules\CheckCSourceCompiles.cmake;D:\share\cmake-4.1\Modules\CheckIncludeFile.cmake;D:\share\cmake-4.1\Modules\CheckLibraryExists.cmake;D:\share\cmake-4.1\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\share\cmake-4.1\Modules\Compiler\MSVC-C.cmake;D:\share\cmake-4.1\Modules\Compiler\MSVC-CXX.cmake;D:\share\cmake-4.1\Modules\Compiler\MSVC.cmake;D:\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;D:\share\cmake-4.1\Modules\FindPackageMessage.cmake;D:\share\cmake-4.1\Modules\FindThreads.cmake;D:\share\cmake-4.1\Modules\Internal\CMakeASMLinkerInformation.cmake;D:\share\cmake-4.1\Modules\Internal\CMakeASM_NASMLinkerInformation.cmake;D:\share\cmake-4.1\Modules\Internal\CMakeCLinkerInformation.cmake;D:\share\cmake-4.1\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\share\cmake-4.1\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\share\cmake-4.1\Modules\Internal\CheckSourceCompiles.cmake;D:\share\cmake-4.1\Modules\Linker\MSVC-C.cmake;D:\share\cmake-4.1\Modules\Linker\MSVC-CXX.cmake;D:\share\cmake-4.1\Modules\Linker\MSVC.cmake;D:\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC.cmake;D:\share\cmake-4.1\Modules\Platform\Windows-Initialize.cmake;D:\share\cmake-4.1\Modules\Platform\Windows-MSVC-C.cmake;D:\share\cmake-4.1\Modules\Platform\Windows-MSVC-CXX.cmake;D:\share\cmake-4.1\Modules\Platform\Windows-MSVC.cmake;D:\share\cmake-4.1\Modules\Platform\Windows.cmake;D:\share\cmake-4.1\Modules\Platform\WindowsPaths.cmake;D:\share\cmake-4.1\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/boringssl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\bin\cmake.exe -SD:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/boringssl -BD:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/build --check-stamp-file D:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\CMakeFiles\4.1.0-rc3\CMakeASM_NASMCompiler.cmake;D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\CMakeFiles\4.1.0-rc3\CMakeCCompiler.cmake;D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\CMakeFiles\4.1.0-rc3\CMakeCXXCompiler.cmake;D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\CMakeFiles\4.1.0-rc3\CMakeRCCompiler.cmake;D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\CMakeFiles\4.1.0-rc3\CMakeSystem.cmake;D:\share\cmake-4.1\Modules\CMakeASMInformation.cmake;D:\share\cmake-4.1\Modules\CMakeASM_NASMInformation.cmake;D:\share\cmake-4.1\Modules\CMakeCInformation.cmake;D:\share\cmake-4.1\Modules\CMakeCXXInformation.cmake;D:\share\cmake-4.1\Modules\CMakeCommonLanguageInclude.cmake;D:\share\cmake-4.1\Modules\CMakeGenericSystem.cmake;D:\share\cmake-4.1\Modules\CMakeInitializeConfigs.cmake;D:\share\cmake-4.1\Modules\CMakeLanguageInformation.cmake;D:\share\cmake-4.1\Modules\CMakeRCInformation.cmake;D:\share\cmake-4.1\Modules\CMakeSystemSpecificInformation.cmake;D:\share\cmake-4.1\Modules\CMakeSystemSpecificInitialize.cmake;D:\share\cmake-4.1\Modules\CheckCSourceCompiles.cmake;D:\share\cmake-4.1\Modules\CheckIncludeFile.cmake;D:\share\cmake-4.1\Modules\CheckLibraryExists.cmake;D:\share\cmake-4.1\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\share\cmake-4.1\Modules\Compiler\MSVC-C.cmake;D:\share\cmake-4.1\Modules\Compiler\MSVC-CXX.cmake;D:\share\cmake-4.1\Modules\Compiler\MSVC.cmake;D:\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;D:\share\cmake-4.1\Modules\FindPackageMessage.cmake;D:\share\cmake-4.1\Modules\FindThreads.cmake;D:\share\cmake-4.1\Modules\Internal\CMakeASMLinkerInformation.cmake;D:\share\cmake-4.1\Modules\Internal\CMakeASM_NASMLinkerInformation.cmake;D:\share\cmake-4.1\Modules\Internal\CMakeCLinkerInformation.cmake;D:\share\cmake-4.1\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\share\cmake-4.1\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\share\cmake-4.1\Modules\Internal\CheckSourceCompiles.cmake;D:\share\cmake-4.1\Modules\Linker\MSVC-C.cmake;D:\share\cmake-4.1\Modules\Linker\MSVC-CXX.cmake;D:\share\cmake-4.1\Modules\Linker\MSVC.cmake;D:\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\share\cmake-4.1\Modules\Platform\Linker\Windows-MSVC.cmake;D:\share\cmake-4.1\Modules\Platform\Windows-Initialize.cmake;D:\share\cmake-4.1\Modules\Platform\Windows-MSVC-C.cmake;D:\share\cmake-4.1\Modules\Platform\Windows-MSVC-CXX.cmake;D:\share\cmake-4.1\Modules\Platform\Windows-MSVC.cmake;D:\share\cmake-4.1\Modules\Platform\Windows.cmake;D:\share\cmake-4.1\Modules\Platform\WindowsPaths.cmake;D:\share\cmake-4.1\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\tool\args.cc" />
+    <ClCompile Include="D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\tool\ciphers.cc" />
+    <ClCompile Include="D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\tool\client.cc" />
+    <ClCompile Include="D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\tool\const.cc" />
+    <ClCompile Include="D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\tool\digest.cc" />
+    <ClCompile Include="D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\tool\fd.cc" />
+    <ClCompile Include="D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\tool\file.cc" />
+    <ClCompile Include="D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\tool\generate_ech.cc" />
+    <ClCompile Include="D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\tool\generate_ed25519.cc" />
+    <ClCompile Include="D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\tool\genrsa.cc" />
+    <ClCompile Include="D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\tool\pkcs12.cc" />
+    <ClCompile Include="D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\tool\rand.cc" />
+    <ClCompile Include="D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\tool\server.cc" />
+    <ClCompile Include="D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\tool\sign.cc" />
+    <ClCompile Include="D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\tool\speed.cc" />
+    <ClCompile Include="D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\tool\tool.cc" />
+    <ClCompile Include="D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\boringssl\src\tool\transport_common.cc" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\ZERO_CHECK.vcxproj">
+      <Project>{C9A91B23-E582-35A0-B74A-19FBF3F966BE}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\crypto.vcxproj">
+      <Project>{51C8ED4E-4B29-39A8-B60F-A6509201FE8D}</Project>
+      <Name>crypto</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\manishENBD\Dc\pingora-gateway-universal\target\debug\build\boring-sys-014bf6b96f6835f3\out\build\ssl.vcxproj">
+      <Project>{E5E4698C-1438-3F3E-881A-7E8E681505D5}</Project>
+      <Name>ssl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="D:\share\cmake-4.1\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

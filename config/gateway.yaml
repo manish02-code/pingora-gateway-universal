@@ -1,0 +1,33 @@
+server:
+  http_listen: "0.0.0.0:6188"
+  https_listen: "0.0.0.0:6189"   # used only with --features tls
+  cert: "certs/server.crt"       # used only with --features tls
+  key:  "certs/server.key"       # used only with --features tls
+  enable_h2: true
+  metrics_addr: "0.0.0.0:9090"
+
+upstreams:
+  - "http://127.0.0.1:8081"
+  - "http://127.0.0.1:8082"
+
+health_check:
+  interval_secs: 2
+
+middleware:
+  acl:
+    allow: ["0.0.0.0/0"]
+    deny: []
+  auth:
+    api_keys: ["super-secret-key"]
+    jwt:
+      enabled: false
+      pub_key_pem: ""
+  rate_limit:
+    req_per_sec: 100
+    burst: 1000
+  cors:
+    allow_origin: "*"
+    allow_headers: "authorization,x-api-key,content-type"
+    allow_methods: "GET,POST,PUT,PATCH,DELETE,OPTIONS"
+  headers:
+    security: true

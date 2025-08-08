@@ -1,0 +1,5 @@
+D:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/build/CMakeFiles/crypto.dir
+D:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/build/CMakeFiles/ssl.dir
+D:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/build/CMakeFiles/bssl.dir
+D:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/build/CMakeFiles/ALL_BUILD.dir
+D:/manishENBD/Dc/pingora-gateway-universal/target/debug/build/boring-sys-014bf6b96f6835f3/out/build/CMakeFiles/ZERO_CHECK.dir

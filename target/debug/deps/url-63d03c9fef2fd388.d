@@ -1,0 +1,11 @@
+D:\manishENBD\Dc\pingora-gateway-universal\target\debug\deps\url-63d03c9fef2fd388.d: C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-2.5.4\src\lib.rs C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-2.5.4\src\host.rs C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-2.5.4\src\origin.rs C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-2.5.4\src\parser.rs C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-2.5.4\src\path_segments.rs C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-2.5.4\src\slicing.rs C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-2.5.4\src\quirks.rs
+
+D:\manishENBD\Dc\pingora-gateway-universal\target\debug\deps\liburl-63d03c9fef2fd388.rmeta: C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-2.5.4\src\lib.rs C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-2.5.4\src\host.rs C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-2.5.4\src\origin.rs C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-2.5.4\src\parser.rs C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-2.5.4\src\path_segments.rs C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-2.5.4\src\slicing.rs C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-2.5.4\src\quirks.rs
+
+C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-2.5.4\src\lib.rs:
+C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-2.5.4\src\host.rs:
+C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-2.5.4\src\origin.rs:
+C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-2.5.4\src\parser.rs:
+C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-2.5.4\src\path_segments.rs:
+C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-2.5.4\src\slicing.rs:
+C:\Users\Manish\ PC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-2.5.4\src\quirks.rs:

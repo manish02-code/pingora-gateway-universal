@@ -1,0 +1,37 @@
+[package]
+name = "pingora-gateway"
+version = "0.2.0"
+edition = "2021"
+license = "MIT"
+
+[features]
+default = ["metrics"]
+# Enable TLS listeners via BoringSSL inside pingora when you build with: --features tls
+tls = ["pingora/boringssl"]
+metrics = []
+
+[dependencies]
+anyhow = "1"
+thiserror = "1"
+serde = { version = "1", features = ["derive"] }
+serde_yaml = "0.9"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+notify = { version = "6", default-features = false, features = ["macos_fsevent", "serde"] }
+parking_lot = "0.12"
+
+# IMPORTANT: disable pingora default-features to avoid unix-only deps on Windows.
+pingora = { version = "0.1", default-features = false }
+pingora-core = "0.1"
+pingora-proxy = "0.1"
+pingora-load-balancing = "0.1"
+
+axum = "0.7"
+prometheus = "0.13"
+dashmap = "5"
+nonzero_ext = "0.3"
+governor = { version = "0.6", features = ["dashmap"] }
+http = "1"
+uuid = { version = "1", features = ["v4"] }
+cidr = "0.3"
+jsonwebtoken = "9" # optional for JWT

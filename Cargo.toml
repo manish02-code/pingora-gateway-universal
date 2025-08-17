@@ -1,8 +1,9 @@
 [package]
-name = "pingora-gateway"
+name = "pingora-gateway-universal"
 version = "0.2.0"
 edition = "2021"
 license = "MIT"
+author=["MANISH SINGH"]
 
 [features]
 default = ["metrics"]

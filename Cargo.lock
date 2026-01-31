@@ -1807,7 +1807,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "30e1b430a5092599518520ddf9586c4ef1c8505f9db731775b33d65fa0c4e62d"
 
 [[package]]
-name = "pingora-gateway"
+name = "pingora-gateway-universal"
 version = "0.2.0"
 dependencies = [
  "anyhow",
